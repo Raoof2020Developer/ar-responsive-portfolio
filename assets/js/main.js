@@ -102,8 +102,9 @@ let swiperPortfolio = new Swiper('.swiper-container', {
 
     pagination: {
         el: ".swiper-pagination",
-        clickable: true
+        clickable: true,
     },
+    changeLaguageDirection: 'rtl',
     mousewheel: true,
     keyboard: true,
     loop: true
